@@ -1,7 +1,6 @@
 # Full Stack RSVP App | Next.js 15, Supabase and Resend 
 
-[![Video](https://github.com/user-attachments/assets/874a23d2-8e8a-4b31-9185-d39dee1d4197)
-](https://youtu.be/du_xO7fNdos)
+<p>A sleek and efficient RSVP app to manage guest invitations, track plus-ones, and share event details. It leverages Supabase for authentication and storage, Resend for email notifications, and the Google Maps API for venue location. Built with Next.js and TypeScript, styled using Tailwind CSS and ShadCN, this app ensures a smooth user experience for hosts and guests alike.</p>
 
 ## Technologies used
 
@@ -54,19 +53,15 @@ bun dev
 
 ### Create `rsvps` Table
 
-<img width="672" alt="Screenshot 2024-12-29 at 10 22 54" src="https://github.com/user-attachments/assets/3678b526-1717-42b0-9ce1-71100ad02bfe" />
 
 #### Set Email to be **unique field**
 
-<img width="606" alt="Screenshot 2024-12-29 at 10 23 39" src="https://github.com/user-attachments/assets/c2f647f2-db82-4a0c-a950-08245482b87c" />
 
 ### Add Row Level Security Policies
 
-#### Allow anonymous inserts
-<img width="548" alt="Screenshot 2024-12-29 at 10 32 46" src="https://github.com/user-attachments/assets/bba99603-73c4-446b-8255-497d38aeae87" />
+#### Allow anonymous inserts 
 
-#### Owner access
-<img width="550" alt="Screenshot 2024-12-29 at 10 35 49" src="https://github.com/user-attachments/assets/788ac00a-ea3d-4c11-9be2-e2bf0198f499" />
+#### Owner access 
 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
